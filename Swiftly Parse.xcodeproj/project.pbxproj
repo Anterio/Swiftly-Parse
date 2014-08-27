@@ -27,7 +27,7 @@
 		8E548FD719ACCAA2004B2FFF /* FaceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E548FD619ACCAA2004B2FFF /* FaceTVC.swift */; };
 		8E548FD919ACCB39004B2FFF /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E548FD819ACCB39004B2FFF /* FaceCell.swift */; };
 		8E548FE419ACD1F3004B2FFF /* IWAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E548FDF19ACD1F3004B2FFF /* IWAViewController.m */; };
-		8E548FE519ACD1F3004B2FFF /* IWAChosenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E548FE219ACD1F3004B2FFF /* IWAChosenTableViewController.m */; };
+		8E548FE519ACD1F3004B2FFF /* IWAChosenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E548FE219ACD1F3004B2FFF /* IWAChosenViewController.m */; };
 		8E548FE619ACD1F3004B2FFF /* IWAFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E548FE319ACD1F3004B2FFF /* IWAFilterViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -69,8 +69,8 @@
 		8E548FDE19ACD1F3004B2FFF /* IWAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWAViewController.h; path = "../myBabyApps/InstaWhat?/InstaWhat?/IWAViewController.h"; sourceTree = "<group>"; };
 		8E548FDF19ACD1F3004B2FFF /* IWAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWAViewController.m; path = "../myBabyApps/InstaWhat?/InstaWhat?/IWAViewController.m"; sourceTree = "<group>"; };
 		8E548FE019ACD1F3004B2FFF /* IWAFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWAFilterViewController.h; path = "../myBabyApps/InstaWhat?/IWAFilterViewController.h"; sourceTree = "<group>"; };
-		8E548FE119ACD1F3004B2FFF /* IWAChosenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWAChosenTableViewController.h; path = "../myBabyApps/InstaWhat?/IWAChosenTableViewController.h"; sourceTree = "<group>"; };
-		8E548FE219ACD1F3004B2FFF /* IWAChosenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWAChosenTableViewController.m; path = "../myBabyApps/InstaWhat?/IWAChosenTableViewController.m"; sourceTree = "<group>"; };
+		8E548FE119ACD1F3004B2FFF /* IWAChosenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWAChosenViewController.h; path = "../myBabyApps/InstaWhat?/IWAChosenViewController.h"; sourceTree = "<group>"; };
+		8E548FE219ACD1F3004B2FFF /* IWAChosenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWAChosenViewController.m; path = "../myBabyApps/InstaWhat?/IWAChosenViewController.m"; sourceTree = "<group>"; };
 		8E548FE319ACD1F3004B2FFF /* IWAFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWAFilterViewController.m; path = "../myBabyApps/InstaWhat?/IWAFilterViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,8 +191,8 @@
 				8E548FDF19ACD1F3004B2FFF /* IWAViewController.m */,
 				8E548FE019ACD1F3004B2FFF /* IWAFilterViewController.h */,
 				8E548FE319ACD1F3004B2FFF /* IWAFilterViewController.m */,
-				8E548FE119ACD1F3004B2FFF /* IWAChosenTableViewController.h */,
-				8E548FE219ACD1F3004B2FFF /* IWAChosenTableViewController.m */,
+				8E548FE119ACD1F3004B2FFF /* IWAChosenViewController.h */,
+				8E548FE219ACD1F3004B2FFF /* IWAChosenViewController.m */,
 			);
 			name = ObjC;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E548FE619ACD1F3004B2FFF /* IWAFilterViewController.m in Sources */,
-				8E548FE519ACD1F3004B2FFF /* IWAChosenTableViewController.m in Sources */,
+				8E548FE519ACD1F3004B2FFF /* IWAChosenViewController.m in Sources */,
 				8E548FD919ACCB39004B2FFF /* FaceCell.swift in Sources */,
 				8E548FD719ACCAA2004B2FFF /* FaceTVC.swift in Sources */,
 				8E548FE419ACD1F3004B2FFF /* IWAViewController.m in Sources */,
@@ -502,6 +502,7 @@
 				8E548FAA19ACBE45004B2FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E548FAB19ACBE45004B2FFF /* Build configuration list for PBXNativeTarget "Swiftly ParseTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +511,7 @@
 				8E548FAD19ACBE45004B2FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

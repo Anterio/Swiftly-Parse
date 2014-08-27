@@ -9,17 +9,18 @@
             <objects>
                 <tableViewController id="PPg-UU-XmN" customClass="FaceTVC" customModule="Swiftly_Parse" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="400" sectionHeaderHeight="22" sectionFooterHeight="22" id="HhV-VY-bcn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dFu-9u-BDo">
-                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <rect key="frame" x="0.0" y="486" width="600" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="400" id="N7R-aj-Ce9" customClass="FaceCell" customModule="Swiftly_Parse" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="400" id="N7R-aj-Ce9" customClass="FaceCell" customModule="Swiftly_Parse" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N7R-aj-Ce9" id="DF7-jE-G0t">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -61,6 +62,11 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="CzK-5O-oeL"/>
+                        <barButtonItem title="Item" width="47" id="A9T-ct-Ev7">
+                            <connections>
+                                <action selector="getPhoto:" destination="PPg-UU-XmN" id="K7F-ho-MIM"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Face Kicks" id="wYO-uC-aWG"/>
                 </tableViewController>

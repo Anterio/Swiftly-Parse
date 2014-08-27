@@ -4,5 +4,5 @@
 
 #import <Parse/Parse.h>
 #import "IWAViewController.h"
-#import "IWAFilterViewController.h"
-#import "IWAChosenTableViewController.h"
+//#import "IWAFilterViewController.h"
+//#import "IWAChosenViewController.h"
